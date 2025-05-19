@@ -34,3 +34,12 @@ logs/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# PDF files
+*.pdf
+
+# Documentation files
+doc_images/
+model_analysis/
+*.md
+_config.yml
