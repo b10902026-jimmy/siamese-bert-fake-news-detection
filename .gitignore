@@ -24,9 +24,6 @@ ENV/
 # Training results directories
 training_results_*/
 
-# Dataset files
-LIAR-PLUS/dataset/
-
 # Logs
 logs/
 *.log
