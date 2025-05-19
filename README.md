@@ -1,4 +1,6 @@
-# Triple Branch BERT Siamese Network for fake news classification on LIAR-PLUS dataset
+# Triple Branch BERT Siamese Network for Fake News Classification on LIAR-PLUS Dataset
+
+This repository contains a fake news detection model using a Triple Branch BERT Siamese Network architecture. The model has been enhanced with comprehensive analysis and visualization tools to better understand its performance.
 
 # Dependensies
 
@@ -14,6 +16,12 @@
 3. [`Fake_News_classification.pdf`](Fake_News_classification.pdf) - Explanation about the architectures and techniques used
 
 4. [`requirements.txt`](requirements.txt) - File to install all the dependencies
+
+5. [`model_analysis/`](model_analysis/) - Directory containing model analysis and visualization results:
+   - Confusion matrices (regular and normalized)
+   - Classification performance metrics
+   - Error analysis
+   - Example predictions with confidence scores
 
 ## Usage
 
@@ -36,6 +44,20 @@ Now to run the training code for 6 class classification, execute
 ``` bash
 $ python3 bert_siamese.py -num_labels 6
 ```
+
+## Model Analysis and Visualization
+
+The repository includes comprehensive model analysis and visualization tools that provide insights into the model's performance:
+
+1. **Confusion Matrix**: Visualizes the model's predictions compared to the actual labels, showing where the model is making correct and incorrect predictions.
+
+2. **Classification Performance**: Detailed metrics including precision, recall, and F1-score for each class, visualized as bar charts for easy comparison.
+
+3. **Error Analysis**: Analysis of the most common types of errors made by the model, helping to identify patterns in misclassifications.
+
+4. **Example Predictions**: Real examples of both correct and incorrect predictions with confidence scores, providing concrete instances of the model's behavior.
+
+These visualizations and analyses are automatically generated after training and can be found in the `model_analysis/` directory. They provide valuable insights for presentations and further model improvements.
 
 ## Architecture and Methodology
 
